@@ -1,0 +1,598 @@
+/* font-family: Gilroy; */
+/* font-size: 18px; */
+/* font-family: Gilroy; */
+/* font-size: 56px; */
+
+
+/* =====================================================
+GENERAL GROUP
+===================================================== */
+h1, h2, h3, h4, h5, h6, p, li, a {
+  font-family: Gilroy;
+}
+
+/*=====================================================
+NAVIGATION GROUP
+===================================================== */
+
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar .navbar-brand {
+  font-family: Homemade Apple;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 39px;
+  color: #231F20;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:active,
+.navbar .navbar-brand:focus {
+  color: #F7941E;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar .navbar-nav {
+      text-align: center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar .navbar-nav .nav-item:not(:first-child) {
+      margin-left: 37px;
+  }
+}
+
+.navbar .navbar-nav .nav-item .nav-link {    /* "navbar-nav" apima "ul" klase*/
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+      font-size: 18px;
+      line-height: 28px;
+  }
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active { /* tarp "nav-link" ir "active" tarpo nereikia*/
+  font-weight: 900;
+  color: #F7941E;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {/* tarp "nav-link" ir ":hover" tarpo nereikia*/
+  color: #F7941E;
+}
+
+/* NavBare reikia padaryti mygtuka "Gift Finder"*/
+
+/* IKI CIA GERAI*/
+
+/* =====================================================
+HEADER GROUP
+===================================================== */
+
+header .header1 {
+  /* background: salmon;      laikina spalva */
+  background: #F1F1F2;
+  margin: auto;
+  max-height: 700px;
+}
+
+header .blokelis {
+  padding: 0;
+}
+
+header .header1 .header-image {
+  padding: 0;
+}
+
+header .header1 .header-image img {
+  width: 719px;
+  height: 700px;
+  object-fit: cover;
+}
+
+header .header2 h1 {
+  font-size: 56px;
+  line-height: 69px;
+  color: #000000;
+  margin: 154px 126px 36px 162px;
+
+}
+
+header .header2 p {
+  font-size: 20px;
+  line-height: 140.62%;
+  color: #000000;
+  margin: 0 137px 52px 162px;
+}
+
+header .header2 .myg-1 {
+  padding: 0 359px 135px 162px;
+}
+
+header .header2 .myg-1 button {
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 23px 24px 15px 25px;
+}
+
+header .header3 h2 {
+  font-size: 32px;
+  line-height: 140.62%;
+  color: #000000;
+  margin: 164px auto 23px 102.34px;
+}
+
+header .header3 p {
+  font-size: 20px;
+  line-height: 140.62%;
+  text-align: justify;
+  color: #000000;
+  margin: 0 166px 35px 102.34px;
+}
+
+header .header3 .myg-2 {
+  padding: 0 407px 104px 102.34px;
+}
+
+
+header .header3 .myg-2 button {
+  font-size: 18px;
+  line-height: 134.77%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F7941E;
+}
+
+header .header3 .myg-2 button:hover {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 255, 255));
+  transition-delay: 0.1s;
+  color: rgb(71, 28, 8);
+}
+
+/* =====================================================
+GIFTS GROUP
+===================================================== */
+
+.gift-group {
+  background: #FFFFFF;
+  padding-bottom: 137px;
+}
+
+.gift-block {
+  padding-bottom: 0;
+}
+
+.gift-group .gift-section {
+  padding: 0 15px 0;
+}
+
+.gift-group .text-block .text-element h2 {
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  margin: 96px auto 23px; 
+}
+
+.gift-group .text-block .text-element p {
+  font-size: 18px;
+  line-height: 135.94%;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 64px;
+}
+
+.gift-group .image-element {
+  border-radius: 0;
+  border: none;
+}
+
+.gift-group .img-unit {
+  border-radius: 0;
+  height: 270px;
+  object-fit: cover;
+}
+
+.gift-group .card-body {
+  padding: 24px;
+}
+
+.gift-group .only-one {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.gift-group .card-body h5 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 74px;
+}
+
+.gift-group .card-body button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  text-decoration: none;
+  padding: 0;
+}
+
+/* =====================================================
+CONTACT GROUP
+===================================================== */
+
+.contact-group {
+  background: #F7941E;
+  max-width: 1440px;
+  height: 240px;
+}
+
+.contact-group .text-block {
+  max-width: max-content;
+  padding-top: 81px;
+  padding-left: 235px;
+}
+
+.contact-group .text-block h2 {
+  font-size: 32px;
+  font-weight: bolder;
+  line-height: 140.62%;
+  color: #000000;
+  margin: 0;
+}
+
+.contact-group .text-block p {
+  font-size: 32px;
+  line-height: 140.62%;
+  color: #000000;
+}
+
+.contact-group .buttons-block .buttons-section {
+  margin: 96px auto 94px 226px;
+}
+
+.contact-group .buttons-block .buttons-section .button-element1 {
+  font-size: 18px;
+  line-height: 22px;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #231F20;
+  border: #F7941E;
+  border-radius: 5px;
+  padding: 18px 24px 10px 25px;
+  margin: 8px;
+}
+
+.contact-group .buttons-block .buttons-section .button-element2 {
+  font-size: 18px;
+  line-height: 134.77%;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 17px 16px 8px 17px;
+  margin: 8px;
+}
+
+/* =====================================================
+BLOGS GROUP
+===================================================== */
+
+.blogs-element1 {
+  display: flex;
+}
+
+.blogs-group .blogs-element1 h2 {
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  padding-top: 96px;
+  padding-bottom: 23px;
+}
+
+.blogs-group .blogs-element1 p {
+  font-size: 18px;
+  line-height: 135.94%;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 64px;
+}
+
+.blogs-group .blogs-element1 .card {
+  background: #231F20;
+  border-radius: 0;
+}
+
+.blogs-group .blogs-element1 img {
+  width: 400px;
+  height: 370px;
+  object-fit: cover;
+}
+
+.blogs-group .blogs-element1 .card-body {
+  padding: 0;
+}
+
+.blogs-group .blogs-element1 .card-body p {
+  text-align: start;
+  font-size: 14px;
+  line-height: 140.62%;
+  color: #FFFFFF;
+  padding: 63px 608px 27px 78px;
+  margin: 0;
+}
+
+.blogs-group .blogs-element1 .card-body h5 {
+  font-size: 48px;
+  line-height: 58px;
+  color: #FFFFFF;
+  padding: 0 200px 60px 78px;
+  margin: 0;
+}
+
+.blogs-group .blogs-element1 .card-body button {
+  font-size: 18px;
+  line-height: 140.62%;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 0;
+  margin: 0 602px 49px 78px;
+}
+
+.blogs-group .blogs-element2 .row-element2 {
+  padding: 40px 75px 80px;
+}
+
+.blogs-group .blogs-element2 .card {
+  border-radius: 0;
+  border: none;
+  /* background: red; */
+  background: #FFFFFF
+}
+
+.blogs-group .blogs-element2 .only-one {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.blogs-group .blogs-element2 .card-body {
+  /* width: 570px;
+  height: 290px; */
+  /* del sito poreikio nesu tikras */
+  padding: 0;
+}
+
+.blogs-group .blogs-element2 h5 {
+  font-size: 24px;
+  line-height: 140.62%;
+  color: #000000;
+  padding: 48px 48px 16px 48px;
+  margin: 0;
+}
+
+.blogs-group .blogs-element2 p {
+  font-size: 18px;
+  line-height: 140.62%;
+  color: #000000;
+  padding: 0px 48px 16px 48px;
+  margin: 0;
+}
+
+.blogs-group .blogs-element2 button {
+  font-size: 14px;
+  line-height: 140.62%;
+  color: #000000;
+  text-decoration: none;
+  padding: 0;
+  margin: 0px 452px 50px 48px;
+}
+
+/* =====================================================
+FOOTER SECTION
+===================================================== */
+
+.footer-group {
+  background: #FAFAFA;
+  max-width: 1440px;
+}
+
+.footer-group .footer-section1 {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-group .footer-section2 {
+  list-style-type: none;
+  margin: 55.8px auto 72.8px;
+}
+
+.footer-group .footer-section3 {
+  list-style-type: none;
+  margin-bottom: 35px;
+}
+
+.footer-group .footer-section1 .footer-element1 {
+  font-size: 14px;
+  line-height: 140.62%;
+  color: #000000;
+  padding: 0;
+  margin: 115px 40.5px 53px;
+}
+
+.footer-group .only-logo {
+  font-family: Homemade Apple;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #F7941E;
+  padding: 0;
+  margin: 106px 105px 43px;
+}
+
+.footer-group .footer-line {
+  /* background: red; */
+  width: 1000px;
+  height: 0;
+  border: 1px solid #000000
+  
+}
+
+.footer-group .footer-section2 a {
+  margin: 0 12.8px 0;
+}
+
+.footer-group .footer-section3 li {
+  margin: 0 7px 0;
+}
+
+.footer-group .footer-section3 li p {
+  font-size: 14px;
+  line-height: 140.62%;
+  text-align: center;
+  color: #000000;
+  padding-top: 3.5px;
+  margin: 0;
+}
+
+.footer-group .footer-section3 li button {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 140.62%;
+  text-align: center;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-group .footer-section3 li button:hover {
+  color: red;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 576px) {
+  .footer-group .footer-section1 {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .footer-group .only-logo {
+    margin: 6px 25px 23px;
+    /* margin: 106px 105px 43px;
+    margin: 115px 40.5px 53px; */
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .footer-group .footer-section1 .footer-element1 {
+    margin: 23px 30px 10.6px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .footer-group .text-decoration-underline {
+    width: 480px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .footer-group .footer-section2 {
+    margin: 25.8px auto 32.8px;
+  }
+}
+
+.fa {
+  padding: 20px;
+  font-size: 38.4px;
+  width: 76.8px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #000000;
+  color: white;
+}
+
+.fa-twitter {
+  background: #000000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #000000;
+  color: white;
+}
+
+.fa-youtube {
+  background: #000000;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #000000;
+  color: white;
+}
+
+.fa-facebook:hover {
+  background: #4267B2;
+  transition: 0.2s;
+  color: #FAFAFA;
+}
+
+.fa-twitter:hover {
+  background: #1DA1F2;
+  transition: 0.2s;
+  color: #FAFAFA;
+}
+
+.fa-instagram:hover { 
+  background: linear-gradient(45deg, rgba(251,173,80,1) 0%, rgba(252,204,99,1) 31%, rgba(188,42,141,1) 61%, rgba(138,58,185,1) 100%);
+  transition: 0.2s;
+  color: #FAFAFA;
+}
+
+.fa-youtube:hover {
+  background: #FF0000;
+  transition: 0.2s;
+  color: #FAFAFA;
+}
+
+.fa-pinterest:hover {
+  background: #E60023;
+  transition: 0.2s;
+  color: #FAFAFA;
+}
