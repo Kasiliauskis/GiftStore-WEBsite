@@ -1,0 +1,4 @@
+
+
+background: linear-gradient(rgba(98, 100, 113, 0.5),rgba(98, 100, 113, 0.5)),
+        url("../images/background1.jpg") top center;
