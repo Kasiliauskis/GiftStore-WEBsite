@@ -1,0 +1,1397 @@
+/* font-family: Gilroy; */
+/* font-size: 18px; */
+/* font-family: Gilroy; */
+/* font-size: 56px; */
+
+
+/* =====================================================
+GENERAL GROUP
+===================================================== */
+h1, h2, h3, h4, h5, h6, p, li, a {
+  font-family: Gilroy;
+}
+
+/*=====================================================
+NAVIGATION GROUP
+===================================================== */
+
+.navbar {
+  background: #FAFAFA;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar .navbar-brand {
+  font-family: Homemade Apple;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 39px;
+  color: #231F20;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:active,
+.navbar .navbar-brand:focus {
+  color: #F7941E;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar .navbar-nav {
+      text-align: center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar .navbar-nav .nav-item:not(:first-child) {
+      margin-left: 37px;
+  }
+}
+
+.navbar .navbar-nav .nav-item .nav-link {    /* "navbar-nav" apima "ul" klase*/
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+      font-size: 18px;
+      line-height: 28px;
+  }
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active { /* tarp "nav-link" ir "active" tarpo nereikia*/
+  font-weight: 900;
+  color: #F7941E;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {/* tarp "nav-link" ir ":hover" tarpo nereikia*/
+  color: #F7941E;
+}
+
+/* NavBare reikia padaryti mygtuka "Gift Finder"*/
+
+/* IKI CIA GERAI*/
+
+/* =====================================================
+HEADER GROUP
+===================================================== */
+
+.header-group  {
+  max-width: 1440px;
+  margin-top: 24px;
+}
+
+.header-group .header-section {
+  height: 700px;
+  padding: 0;
+  margin: 0;
+}
+
+.header-section .header-element1,
+.header-elementas {
+  background: #F1F1F2;
+}
+
+.header-section .header-element1,
+.header-elementas,
+.header-element3 {
+  height: 700px;
+  border: 0;
+  border-radius: 0;
+}
+
+.header-section .header-element3 .img-element {
+  width: 720px;
+  height: 700px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.header-section .header-element1 h5 {
+  font-size: 56px;
+  line-height: 69px;
+  color: #000000;
+  margin: 154px 126px 36px 162px;
+}
+
+.header-section .header-element1 p {
+  font-size: 20px;
+  line-height: 140.62%;
+  color: #000000;
+  margin: 0 137px 52px 162px;
+}
+
+.header-section .header-button1 {
+  padding: 0 359px 135px 162px;
+}
+
+.header-section .header-element1 button {
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 23px 24px 15px 25px;
+}
+
+.header-section .header-elementas h5 {
+  font-size: 32px;
+  line-height: 140.62%;
+  color: #000000;
+  margin: 164px 413px 23px 102.34px;
+}
+
+.header-section .header-elementas p {
+  font-size: 20px;
+  line-height: 140.62%;
+  text-align: justify;
+  color: #000000;
+  margin: 0 166px 35px 102.34px;
+}
+
+.header-section .header-button2 {
+  padding: 0 407px 104px 102.34px;
+}
+
+.header-section .header-elementas button {
+  font-size: 18px;
+  line-height: 134.77%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F7941E;
+  padding: 21px 46px 14px 47px;
+}
+
+/* HEADER Responsive iki 375px */
+
+@media only screen and (max-width: 375px) { /* PADARYTA */
+  .header-group .header-section {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 375px) { /* PADARYTA */
+  .header-group .header-section .header-element1,
+  .header-group .header-section .header-element3 {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 375px) { /* PADARYTA */
+  .header-group .header-section .header-element1 h5 {
+    margin: 20px 60px 20px;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 375px) { /* PADARYTA */
+  .header-group .header-section .header-element1 p {
+    margin: 0 60px 15px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 375px) { /* PADARYTA */
+  .header-group .header-section .header-element1 .header-button1 {
+    padding: 0 125px;
+    margin-bottom: 25px;
+   
+  }
+} 
+
+@media only screen and (max-width: 375px) { /* PADARYTA */
+  .header-group .header-section .header-element1 .header-button1 button {
+    padding: 6px 12px;
+    font-size: 13px;
+   
+  }
+} 
+
+@media only screen and (max-width: 375px) { /* PADARYTA */
+  .header-group .header-section .header-element3 img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 375px) { /* uzdejau 15px tarpeli tarp foto */
+  .header-group .header-section .header-element3 .img-two {
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 375px) { /* PADARYTA */
+  .header-group .header-section .header-elementas h5 {
+    margin: 20px auto 15px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 375px) { /* PADARYTA */
+  .header-group .header-section .header-elementas p {
+    margin: 0 40px 20px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 375px) { /* PADARYTA */
+  .header-group .header-section .header-elementas .header-button2 {
+    margin-bottom: 25px;
+    padding: 0 125px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+} 
+
+/* HEADER Responsive nuo 377px iki 576px */
+
+@media only screen and (min-width: 375px) and (max-width: 576px) { /* PADARYTA */
+  .header-group .header-section {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 576px) { /* PADARYTA */
+  .header-section .header-element1,
+  .header-section .header-elementas,
+  .header-section .header-element3 {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    margin: auto;
+  }
+} 
+
+@media only screen and (min-width: 375px) and (max-width: 576px) { /* PADARYTA */
+  .header-group .header-section .header-element3 .img-element {
+    width: auto;
+    height: auto;
+  }
+} 
+
+@media only screen and (min-width: 375px) and (max-width: 576px) { /* uzdejau 15px tarpeli tarp foto */
+  .header-group .header-section .header-element3 .img-two {
+   margin-top: 15px;
+  }
+}
+
+/* @media only screen and (min-width: 375px) and (max-width: 576px) {
+  .header-section .header-element3 .img-element,
+  .header-section .header-element2 .img-element {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    margin: 0;
+  }
+} */
+
+
+@media only screen and (min-width: 375px) and (max-width: 576px) { /* PADARYTA */
+  .header-section .header-element1 h5 {
+    font-size: 50px;
+    line-height: 50px;
+    margin: 40px 30px 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 576px) { /* PADARYTA */
+  .header-section .header-element1 p {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 30px 40px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 576px) {/* PADARYTA */
+  .header-section .header-button1 {
+    justify-content: center;
+    padding: 0 95px;
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 576px) { /* PADARYTA */
+  .header-section .header-button1 button {
+    font-size: 15px;
+    padding: 8px 20px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 576px) { /* PADARYTA */
+  .header-group .header-section .header-elementas h5 {
+    font-size: 32px;
+    line-height: 50px;
+    margin: 40px 30px 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 576px) { /* PADARYTA */
+  .header-group .header-section .header-elementas p {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 30px 40px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 576px) { /* PADARYTA */
+  .header-group .header-section .header-button2 {
+    justify-content: center;
+    padding: 0 95px;
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 576px) { /* PADARYTA */
+  .header-group .header-section .header-button2 button {
+    font-size: 15px;
+    padding: 8px 20px;
+  }
+}
+
+/* HEADER Responsive nuo 576px iki 992px */
+
+@media only screen and (min-width: 576px) and (max-width: 992px) { /* PADARYTA */
+  .header-group .header-section {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) { /* PADARYTA */
+  .header-section .header-element1,
+  .header-section .header-elementas,
+  .header-section .header-element3 {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    margin: auto;
+  }
+} 
+
+@media only screen and (min-width: 576px) and (max-width: 992px) { /* uzdejau 20px tarpeli tarp foto */
+  .header-group .header-section .header-element3 .img-two {
+   margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) { /* PADARYTA */
+  .header-section .header-element3 .img-element,
+  .header-section .header-elementas .img-element {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) { /* PADARYTA */
+  .header-section .header-element1 h5 {
+    margin: 96px 100px 36px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) { /* PADARYTA */
+  .header-section .header-element1 p {
+    margin: 0 90px 30px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) { /* PADARYTA */
+  .header-section .header-button1 {
+    margin-bottom: 30px;
+    padding: 0 195px;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) { /* PADARYTA */
+  .header-group .header-section .header-elementas h5 {
+    font-size: 32px;
+    line-height: 140.62%;
+    color: #000000;
+    text-align: center;
+    margin: 96px 80px 18px 120px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) { /* PADARYTA */
+  .header-group .header-section .header-elementas p {
+    font-size: 20px;
+    line-height: 140.62%;
+    color: #000000;
+    text-align: center;
+    margin: 0 90px 30px 120px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) { /* PADARYTA */
+  .header-group .header-section .header-button2 {
+    margin-bottom: 30px;
+    padding: 0 195px;
+    justify-content: center;
+  }
+}
+
+/* HEADER Responsive nuo 992px iki 1420px */
+
+@media only screen and (min-width: 992px) and (max-width: 1420px) { /* PADARYTA */
+  .header-group .header-block .header-section {
+    height: 650px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1420px) { /* PADARYTA */
+  .header-section .header-element1,
+  .header-section .header-elementas,
+  .header-section .header-element3 {
+    height: 650px;
+  }
+} 
+
+@media only screen and (min-width: 992px) and (max-width: 1420px) { /* PADARYTA */
+  .header-group .header-section .header-element3 img,
+  .header-section .header-elementas .img {
+    width: auto;
+    height: 650px;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1420px) { /* PADARYTA */
+  .header-section .header-element1 h5 {
+    margin: 100px 60px 36px 60px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1420px) { /* PADARYTA */
+  .header-section .header-element1 p {
+    margin: 0 60px 52px 60px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1420px) { /* PADARYTA */
+  .header-section .header-button1 {
+    padding: 0 150px 135px 150px;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1420px) { /* PADARYTA */
+  .header-group .header-section .header-elementas h5 {
+    margin: 164px 100px 23px 102.34px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1420px) { /* PADARYTA */
+  .header-group .header-section .header-elementas p {
+    margin: 0 120px 35px 102.34px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1420px) { /* PADARYTA */
+  .header-group .header-section .header-button2 {
+    padding: 0 190px 104px 102.34px;
+  }
+}
+
+/* =====================================================
+GIFTS GROUP
+===================================================== */
+
+.gift-group {
+  background: #FFFFFF;
+  padding-bottom: 137px;
+}
+
+.gift-block {
+  padding-bottom: 0;
+}
+
+.gift-group .gift-section {
+  padding: 0 15px 0;
+}
+
+.gift-group .text-block .text-element h2 {
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  margin: 96px auto 23px; 
+}
+
+.gift-group .text-block .text-element p {
+  font-size: 18px;
+  line-height: 135.94%;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 64px;
+}
+
+.gift-group .image-element {
+  border-radius: 0;
+  border: none;
+}
+
+.gift-group .img-unit {
+  border-radius: 0;
+  height: 270px;
+  object-fit: cover;
+}
+
+.gift-group .card-body {
+  padding: 24px;
+}
+
+.gift-group .only-one {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.gift-group .card-body h5 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 74px;
+}
+
+.gift-group .card-body button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  text-decoration: none;
+  padding: 0;
+}
+
+/* GIFT Responsive iki 376px */
+
+@media only screen and (max-width: 376px) {
+  .gift-group {
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .gift-group .text-block .text-element #heading {
+    margin: 20px auto 15px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .gift-group .text-block .text-element #paragraph {
+    margin: 0 40px 20px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .gift-group .gift-block .image-element .card-body .card-title {
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .gift-group .gift-block .image-element .card-body .btn-link {
+    font-size: 12px;
+  }
+}
+
+/* =====================================================
+CONTACT GROUP
+===================================================== */
+
+.contact-group {
+  background: #F7941E;
+  max-width: 1440px;
+  height: 240px;
+}
+
+.contact-group .contact-block {
+  padding-top: 81px;
+ }
+
+ .contact-group .text-block {
+  margin-top: 0;
+  padding: 0;
+ }
+
+.contact-group .text-section {
+  justify-content: center;
+  display: grid;
+}
+
+.contact-group .text-section h2 {
+  font-size: 32px;
+  font-weight: bolder;
+  line-height: 45px;
+  color: #000000;
+  margin: 0;
+}
+
+.contact-group .text-section p {
+  font-size: 32px;
+  line-height: 140.62%;
+  color: #000000;
+  margin: 0;
+}
+
+.contact-group .buttons-block {
+  padding-top: 15px;
+  margin: 0;
+}
+
+.contact-group .buttons-section {
+  width: 400px;
+  margin-left: 60px;
+}
+
+.contact-group .buttons-block .buttons-section .button-element1 {   
+  font-size: 18px;
+  line-height: 22px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #231F20;
+  border: #F7941E;
+  border-radius: 5px;
+  padding: 18px 24px 10px 25px;
+  margin: 8px;
+}
+
+.contact-group .buttons-block .buttons-section .button-element2 { 
+  font-size: 18px;
+  line-height: 134.77%;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 17px 16px 8px 17px;
+  margin: 8px;
+}
+
+/* CONTACT Responsive nuo 375px iki 724px*/
+
+@media only screen and (min-width: 375px) and  (max-width: 724px) { /* PADARYTA */
+  .contact-group {
+    margin-top: 8px;
+  }
+}
+
+@media only screen and (min-width: 375px) and  (max-width: 724px) { /* PADARYTA */
+  .contact-group .contact-block {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 375px) and  (max-width: 724px) { /* PADARYTA */
+  .contact-group .contact-block .text-block {
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 375px) and  (max-width: 724px) { /* PADARYTA */
+  .contact-group .contact-block .text-section {
+    width: 350px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 375px) and  (max-width: 724px) { /* PADARYTA */
+  .contact-group .contact-block .buttons-block {
+    width: auto;
+    /* flex: none; */
+    display: flex;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 375px) and  (max-width: 724px) { /* PADARYTA */
+  .contact-group .contact-block .buttons-section {
+    width: 350px;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 375px) and  (max-width: 724px) { /* PADARYTA */
+  .contact-group .contact-block .buttons-section .button-element1,
+  .contact-group .contact-block .buttons-section .button-element2 {
+    padding: 15px;
+    margin: 0;
+  }
+}
+
+/* CONTACT Responsive nuo 724px iki 993px*/
+
+@media only screen and (min-width: 723px) and  (max-width: 993px) {
+  .contact-group .contact-block {
+    padding-top: 60px;
+  }
+}
+
+@media only screen and (min-width: 723px) and  (max-width: 993px) {
+  .contact-group .contact-block .text-section {
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 723px) and  (max-width: 993px) {
+  .contact-group .contact-block .buttons-block {
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 723px) and  (max-width: 993px) {
+  .contact-group .contact-block .buttons-section {
+    display: grid;
+    justify-content: center;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (min-width: 723px) and  (max-width: 993px) {
+  .contact-group .contact-block .buttons-section .button-element1,
+  .contact-group .contact-block .buttons-section .button-element2 {
+    margin: 8px;
+  }
+}
+
+/* CONTACT Responsive nuo 992px iki 1420px*/
+
+@media only screen and (min-width: 992px) and (max-width: 1420px) { /* PADARYTA */
+  .contact-group .contact-block {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1420px) { /* PADARYTA */
+  .contact-group .text-block {
+    padding: 70px 80px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1420px) { /* PADARYTA */
+  .contact-group .buttons-block .buttons-section {
+    margin: 70px 0;
+    justify-content: end;
+    display: flex;
+  }
+}
+
+/* nuo cia naujas bajeris */
+
+/* @media only screen and (min-width: 375px) and (max-width: 576px) {
+  .Overlay-Title {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 576px) {
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 576px) {
+  .container:hover .overlay {
+    opacity: 1;
+} */
+
+/* iki cia naujas bajeris */
+
+
+
+/* Sidenav */
+
+/* @media only screen and (max-width: 576px) {
+  #mySidenav a {
+    position: absolute;
+    right: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    justify-content: end;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #mySidenav a:hover {
+    Right: 0; 
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #Fgn {
+    top: 40px;
+    background-color: #04AA6D;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #Fgn {
+    top: 100px;
+    background-color: #2196F3; 
+  }
+} */
+
+/* =====================================================
+BLOGS GROUP
+===================================================== */
+
+.blogs-element1 {
+  display: flex;
+}
+
+.blogs-group .blogs-element1 h2 {
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  padding-top: 96px;
+  padding-bottom: 23px;
+}
+
+.blogs-group .blogs-element1 p {
+  font-size: 18px;
+  line-height: 135.94%;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 64px;
+}
+
+.blogs-group .blogs-element1 .card {
+  background: #231F20;
+  border-radius: 0;
+}
+
+.blogs-group .blogs-element1 img {
+  width: 400px;
+  height: 370px;
+  object-fit: cover;
+}
+
+.blogs-group .blogs-element1 .card-body {
+  padding: 0;
+}
+
+.blogs-group .blogs-element1 .card-body p {
+  text-align: start;
+  font-size: 14px;
+  line-height: 140.62%;
+  color: #FFFFFF;
+  padding: 63px 608px 27px 78px;
+  margin: 0;
+}
+
+.blogs-group .blogs-element1 .card-body h5 {
+  font-size: 48px;
+  line-height: 58px;
+  color: #FFFFFF;
+  padding: 0 200px 60px 78px;
+  margin: 0;
+}
+
+.blogs-group .blogs-element1 .card-body button {
+  font-size: 18px;
+  line-height: 140.62%;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 0;
+  margin: 0 602px 49px 78px;
+}
+
+.blogs-group .blogs-element2 .row-element2 {
+  padding: 40px 75px 80px;
+}
+
+.blogs-group .blogs-element2 .card {
+  border-radius: 0;
+  border: none;
+  /* background: red; */
+  background: #FFFFFF
+}
+
+.blogs-group .blogs-element2 .only-one {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.blogs-group .blogs-element2 .card-body {
+  /* width: 570px;
+  height: 290px; */
+  /* del sito poreikio nesu tikras */
+  padding: 0;
+}
+
+.blogs-group .blogs-element2 h5 {
+  font-size: 24px;
+  line-height: 140.62%;
+  color: #000000;
+  padding: 48px 48px 16px 48px;
+  margin: 0;
+}
+
+.blogs-group .blogs-element2 p {
+  font-size: 18px;
+  line-height: 140.62%;
+  color: #000000;
+  padding: 0px 48px 16px 48px;
+  margin: 0;
+}
+
+.blogs-group .blogs-element2 button {
+  font-size: 14px;
+  line-height: 140.62%;
+  color: #000000;
+  text-decoration: none;
+  padding: 0;
+  margin: 0px 452px 50px 48px;
+}
+
+@media only screen and (max-width: 378px) { /* PADARYTA */
+  .blogs-group .h-text h2{
+    padding: 0;
+    margin: 20px auto 15px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 378px) { /* PADARYTA */
+  .blogs-group .blogs-text-p p{
+    padding: 0;
+    margin: 0 40px 20px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 378px) {
+  .blogs-group .blogs-element2 .row-element2 { /* PADARYTA */
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 378px) {
+  .blogs-group .blogs-element2 .row-element2 h5 { /* PADARYTA */
+    padding: 28px 28px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 378px) {
+  .blogs-group .blogs-element2 .row-element2 p { /* PADARYTA */
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 378px) {
+  .blogs-group .blogs-element2 .row-element2 button { /* PADARYTA */
+    width: 100px;
+    margin: 25px auto;
+    justify-content: center;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 378px) {
+  .blogs-group .blogs-element2 .row-element2 .only-one { /* PADARYTA */
+    margin-bottom: 10px;
+  }
+}
+
+/* BLOGS Responsive iki 768px */
+
+@media only screen and (max-width: 768px) {
+  .blogs-element1 .bloks-text-h h2 {
+    padding-top: 48px;
+    padding-bottom: 11.5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .blogs-element1 .bloks-text-p p {
+    padding-bottom: 32px;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .blogs-group .card {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .blogs-group .blogs-element1 img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    margin: auto;
+  }
+}
+
+/* uzvedus pasirodo tekstas */
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .blogs-group .tikrinu {
+    position: relative;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .blogs-group .tikrinu .blogs-img {
+    opacity: 1;
+    display: block;
+    width: auto;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .blogs-group .tikrinu .card-body {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .blogs-group .tikrinu .card-body p {
+    text-align: center;
+    padding: 0;
+    color: red;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .blogs-group .tikrinu .card-body h5 {
+    padding: 0;
+    color: red;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .blogs-group .tikrinu .card-body button {
+    margin: 0;
+    color: red;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .blogs-group .tikrinu .card-body button:hover {
+    color: blue;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .tikrinu:hover .blogs-img {
+    opacity: 0.3;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .tikrinu:hover .card-body {
+    opacity: 1;
+  }
+}
+
+/* BLOGS img dalis gerai truksta apatines dalies */
+
+/* =====================================================
+FOOTER SECTION
+===================================================== */
+
+.footer-group {
+  background: #FAFAFA;
+  max-width: 1440px;
+}
+
+.footer-group .footer-section1 {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-group .footer-section2 {
+  list-style-type: none;
+  margin: 55.8px auto 72.8px;
+}
+
+.footer-group .footer-section3 {
+  list-style-type: none;
+  margin-bottom: 35px;
+}
+
+.footer-group .footer-section1 .footer-element1 {
+  font-size: 14px;
+  line-height: 140.62%;
+  color: #000000;
+  padding: 0;
+  margin: 115px 40.5px 53px;
+}
+
+.footer-group .only-logo {
+  font-family: Homemade Apple;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #F7941E;
+  padding: 0;
+  margin: 106px 105px 43px;
+}
+
+.footer-group .footer-line {
+  /* background: red; */
+  width: 1000px;
+  height: 0;
+  border: 1px solid #000000
+  
+}
+
+.footer-group .footer-section2 a {
+  margin: 0 12.8px 0;
+}
+
+.footer-group .footer-section3 li {
+  margin: 0 7px 0;
+}
+
+.footer-group .footer-section3 li p {
+  font-size: 14px;
+  line-height: 140.62%;
+  text-align: center;
+  color: #000000;
+  padding-top: 3.5px;
+  margin: 0;
+}
+
+.footer-group .footer-section3 li button {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 140.62%;
+  text-align: center;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-group .footer-section3 li button:hover {
+  color: red;
+  font-weight: bold;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 38.4px;
+  width: 76.8px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #000000;
+  color: white;
+}
+
+.fa-twitter {
+  background: #000000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #000000;
+  color: white;
+}
+
+.fa-youtube {
+  background: #000000;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #000000;
+  color: white;
+}
+
+.fa-facebook:hover {
+  background: #4267B2;
+  transition: 0.2s;
+  color: #FAFAFA;
+}
+
+.fa-twitter:hover {
+  background: #1DA1F2;
+  transition: 0.2s;
+  color: #FAFAFA;
+}
+
+.fa-instagram:hover { 
+  background: linear-gradient(45deg, rgba(251,173,80,1) 0%, rgba(252,204,99,1) 31%, rgba(188,42,141,1) 61%, rgba(138,58,185,1) 100%);
+  transition: 0.2s;
+  color: #FAFAFA;
+}
+
+.fa-youtube:hover {
+  background: #FF0000;
+  transition: 0.2s;
+  color: #FAFAFA;
+}
+
+.fa-pinterest:hover {
+  background: #E60023;
+  transition: 0.2s;
+  color: #FAFAFA;
+}
+
+/* FOOTER Responsive iki 376px */
+
+@media only screen and (max-width: 376px) { /*  PADARYTA */
+  .footer-group .footer-section1 {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 376px) { /*  PADARYTA */
+  .footer-group .footer-section1 .footer-element1 {
+    margin: 35px 10px 23px;
+  }
+}
+
+@media only screen and (max-width: 376px) {  /*  PADARYTA */
+  .footer-group .footer-section1 .only-logo {
+    margin: 15px 10px 23px;
+  }
+}
+
+@media only screen and (max-width: 376px) {  /*  PADARYTA */
+  .footer-group .footer-line {
+    width: auto;
+    margin: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 376px) { /*  PADARYTA */
+  .footer-group .footer-section2 {
+    margin: 17.9px auto 16.4px;
+  }
+}
+
+@media only screen and (max-width: 376px) { /*  PADARYTA */
+  .footer-section2 .fa-facebook,
+  .fa-twitter,
+  .fa-instagram,
+  .fa-youtube,
+  .fa-pinterest {
+    padding: 10px;
+    font-size: 19.2px;
+    width: 38.4px;
+  }
+}
+
+
+/* FOOTER Responsive iki 576px */
+
+@media only screen and (min-width: 376px) and (max-width: 576px) {
+  .footer-group .footer-section1 {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 576px) {
+  .footer-group .only-logo {
+    margin: 6px 25px 23px;
+    /* margin: 106px 105px 43px;
+    margin: 115px 40.5px 53px; */
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 576px) {
+  .footer-group .footer-section1 .footer-element1 {
+    margin: 23px 30px 10.6px;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 576px) {
+  .footer-group .text-decoration-underline {
+    width: auto;
+    margin: 0 20px;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 576px) {
+  .footer-group .footer-section2 {
+    margin: 25.8px auto 32.8px;
+  }
+}
