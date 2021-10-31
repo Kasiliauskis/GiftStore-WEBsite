@@ -1,0 +1,95 @@
+
+
+
+/*=====================================================
+NAVIGATION
+===================================================== */
+.nav-section .logo {
+  font-family: Homemade Apple;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #231F20;
+  padding-top: 39px;
+  padding-bottom: 38px;
+  padding-left: 80px;
+
+}
+
+.nav-section .nav-block a {
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin: auto;
+  
+}
+
+.nav-section .nav-subblock li {
+  margin: 0 auto;
+  padding-left: 15.5px;
+  padding-right: 15.5px;
+}
+
+* =====================================================
+HEADER
+===================================================== */
+
+/*max-width: 1320px;*/
+
+
+/* =====================================================
+FOOTER SECTION
+===================================================== */
+
+* Style all font awesome icons */
+/* .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 38.4px;
+    height: 38.4px;
+    text-align: center;
+    text-decoration: none;
+  } */
+  
+  /* Add a hover effect if you want */
+  /* .fa:hover {
+    opacity: 0.7;
+  } */
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  /* .fa-facebook {
+    background: linear-gradient(to top, #c7842d 0%, #c50a0a 100%);
+    color: linear-gradient(to top, #c7842d 0%, #c50a0a 100%);
+  } */
+  
+  /* Twitter */
+  /* .fa-twitter {
+    background: #000000;
+    color: lightblue;
+  } */
+
+  /* Instagram */
+  /* .fa-instagram {
+    background: #000000;
+    color: linear-gradient(to top, #c7842d 0%, #c50a0a 100%);
+  } */
+
+  /* youtube */
+  /* .fa-youtube {
+    background: #000000;
+    color: red;
+  } */
+
+  /* pinterest */
+  /* .fa-pinterest {
+    background: #000000;
+    color: red;
+  } */
