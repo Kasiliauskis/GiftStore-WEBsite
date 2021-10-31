@@ -1,0 +1,43 @@
+
+HOME puslapio darbai:
+
+	1. HEADER Responsive:
+		a. 373px;
+		b. 768px;
+
+	2. GIFTS Responsive:
+		a. 373px;
+		b. 768px;
+
+	3. CONTACT Responsive:
+		a. 373px;
+		b. 768px;
+
+	4. BLOGS Responsive:
+		a. 373px;
+		b. 768px;
+
+	5. FOOTER Responsive:
+		a. 373px;
+		b. 768px;
+
+ABOUT US puslapio darbai:
+
+SERVICES puslapio darbai:
+	1. Our Team - sudeti foto ir trumpi aprasymai. is w3 Rounded images.
+
+BLOGS puslapio darbai:
+
+PRIVACY-TERMS puslapio darbai:
+
+FIND GIFT NOW puslapio darbai:
+
+LEARN MORE puslapio darbai:
+
+Gifts SEE MORE puslapio darbai:
+
+Contacts HOW IT WORKS puslapio darbai:
+
+Blogs READ MORE puslapio darbai:
+
+
