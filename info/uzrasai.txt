@@ -1,0 +1,7 @@
+min 375px - max 576px;
+
+min 576px - max 992px;
+
+min 992px - max 1200px;
+
+min 1200px - max 1400px;
