@@ -1,0 +1,265 @@
+
+<!-- NAVIGATION -->
+
+    <div class="container nav-section">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="#">logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav-block" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-subblock">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Blogs</a>
+                        </li>
+                    </ul>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button type="button" class="btn btn-outline-warning">Warning</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+<!-- HEADER -->
+
+    <!-- <header class="header">
+        <div class="row">
+            <div class="col">
+                <div class="container">
+                    <h1>Find a gift for your wife or girlfriend</h1>
+                    <p>Struggling to find a gift for your wife or girlfriend?
+                        No problem!</p>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button class="btn btn-warning" type="button">Find gift now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col right-foto">
+                <img src="images/image1.jpg" class="rounded" alt="...">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col right-foto">
+                <img src="images/image2.jpg" class="rounded" alt="...">
+            </div>
+            <div class="col">
+                <div class="container">
+                    <h3>How we work</h3>
+                    <p>We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to
+                        do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect
+                        gift options.</p>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button type="button" class="btn btn-outline-warning">Learn more</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </header> -->
+
+<!-- GIFTS -->
+
+    <!-- <div class="container">
+        <div class="container">
+            <h1>Find a gift for your wife or girlfriend</h1>
+            <p>Struggling to find a gift for your wife or girlfriend?
+                No problem!</p>
+        </div>
+        <div class="container">
+            <div class="row row-cols-2 justify-content-center row-cols-lg-5 g-2 g-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/gift1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Birthday</h5>
+                        <button type="button" class="btn btn-link">See More ></button>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="images/gift2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Anniversary</h5>
+                        <button type="button" class="btn btn-link">See More ></button>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="images/gift3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Valentine's Day</h5>
+                        <button type="button" class="btn btn-link">See More ></button>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="images/gift4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Christmas</h5>
+                        <button type="button" class="btn btn-link">See More ></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div> -->
+
+<!-- CONTACTS -->
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Ready to get started?</h2>
+                <p>Sign up or contact us</p>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary btn-lg">Find gift now</button>
+                <button type="button" class="btn btn-outline-dark btn-lg">how it works</button>
+            </div>
+        </div>
+    </div> -->
+
+<!-- BLOGS -->
+
+    <!-- <div class="container">
+        <div class="container">
+            <h3>Our Best Blogs Ever</h3>
+            <p>“Try our blog to find the best tips and tricks to select your gift”</p>
+        </div>
+        <div class="row g-0">
+            <div class="col-6 col-md-4">
+                <img src="images/image3.jpg" class="img-thumbnail" alt="...">
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <p class="card-text">Mr. John Doe</p>
+                    <h5 class="card-title">The best way to wish your wife</h5>
+                    <a href="#" class="card-link">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col">
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Database to find the gifts for your girlfriend</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore...</p>
+                        <a href="#" class="card-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">How Artificial Intelligence read your mind to find the best gift</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore...</p>
+                        <a href="#" class="card-link">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div> -->
+
+<!-- FOOTER -->
+
+
+    <!-- <footer>
+        <div class="container">
+            <div class="row">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Blogs</a>
+                        </li>
+                    </ul>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button type="button" class="btn btn-outline-warning">Warning</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                
+            </div>
+            <div class="row">
+               
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+            </div>
+        </div>
+    </footer> -->
+
+    <!-- <div class="container nav-section">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Blogs</a>
+                        </li>
+                    </ul>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button type="button" class="btn btn-outline-warning">Warning</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div> -->
+
+
+    <!-- Add font awesome icons -->
+    <!-- <a href="#" class="fa fa-facebook"></a> 
+    https://www.facebook.com/
+
+    <a href="#" class="fa fa-twitter"></a>
+    https://twitter.com/
+
+    <a href="#" class="fa fa-instagram"></a>
+    https://www.instagram.com/
+
+    <a href="#" class="fa fa-youtube"></a>
+    https://www.youtube.com/
+
+    <a href="#" class="fa fa-pinterest"></a> -->
+    https://www.pinterest.com/
